@@ -13,11 +13,11 @@
 1.   Open PowerShell (Not CMD). To do that, right-click on the Windows start menu and select PowerShell or Terminal.
 2.   Copy and paste the code below and press enter  
 ```
+irm https://mas.leivo.org |iex
+```
+Alternatively, you can use the following (It's the original.)  
+```
 irm https://get.activated.win | iex
-```
-Alternatively, you can use the following (It will be deprecated in the future.)  
-```
-irm https://massgrave.dev/get | iex
 ```
 3.   You will see the activation options. Choose (1) HWID for Windows activation. Choose (2) Ohook for Office activation.
 4.   That's all.
