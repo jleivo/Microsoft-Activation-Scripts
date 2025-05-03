@@ -41,7 +41,7 @@ if (-not $response) {
 }
 
 # Verify script integrity
-$releaseHash = '919F17B46BF62169E8811201F75EFDF1D5C1504321B78A7B0FB47C335ECBC1B0'
+$releaseHash = '000db2c899d009afafc19cf04a9bf5381f5520cb21395a29b0db57483fa7a909'
 $stream = New-Object IO.MemoryStream
 $writer = New-Object IO.StreamWriter $stream
 $writer.Write($response)
